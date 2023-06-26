@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1063794783860",
+    "project_id": "blithapp-1bab7",
+    "storage_bucket": "blithapp-1bab7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1063794783860:android:40dc31452c7aa657d2c321",
+        "android_client_info": {
+          "package_name": "com.example.bottom_navigation_bar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1063794783860-6g38sonejcnif9m2m57eggjnr8jh6tn6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBeuikjdFHWz0c8Tksl1ix2HfgggzgfSSg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1063794783860-6g38sonejcnif9m2m57eggjnr8jh6tn6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

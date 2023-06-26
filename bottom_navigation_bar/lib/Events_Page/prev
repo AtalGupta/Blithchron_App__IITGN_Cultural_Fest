@@ -1,0 +1,419 @@
+
+// ignore: camel_case_types
+// class eventwindow1 extends StatelessWidget {
+//   const eventwindow1({Key? key}) : super(key: key);
+
+//   @override
+//   Widget build(BuildContext context) {
+//     return Scaffold(
+//       body: Stack(
+//         children: [
+//           Positioned.fill(
+//             child: Column(
+//               children: [
+//                 Expanded(
+//                   child: Container(
+//                     color: Colors.amberAccent,
+//                   ),
+//                 ),
+//                 Expanded(
+//                   child: Container(
+//                     color: Colors.white,
+//                     margin: EdgeInsets.symmetric(vertical: 80),
+//                     padding: EdgeInsets.symmetric(horizontal: 20),
+//                     child: Column(
+//                       // ignore: prefer_const_literals_to_create_immutables
+//                       children: [
+//                         Text(
+//                           'Drama has never been just acting, but it\'s the art one has within himself to express his emotions. Mainly consisting of theatre plays and street plays, they become one of the best sources to spread awareness for social issues.',
+//                           style: TextStyle(fontSize: 20),
+//                         ),
+//                         Text(
+//                           '\nREGISTRATION DEADLINE: 21 DEC',
+//                           style: TextStyle(fontSize: 21, color: Colors.red),
+//                         ),
+//                       ],
+//                     ),
+//                   ),
+//                 ),
+//               ],
+//             ),
+//           ),
+//           Container(
+//             margin: EdgeInsets.only(top: 40),
+//             child: Align(
+//               alignment: Alignment.topCenter,
+//               child: Row(
+//                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
+//                 children: [
+//                   IconButton(icon: Icon(Icons.arrow_back), onPressed: () {}),
+//                   IconButton(onPressed: () {}, icon: Icon(Icons.share))
+//                 ],
+//               ),
+//             ),
+//           ),
+//           Align(
+//             alignment: Alignment.topCenter,
+//             child: Container(
+//               margin: EdgeInsets.only(top: 80),
+//               height: 300,
+//               width: 350,
+//               decoration: BoxDecoration(
+//                 color: Color.fromARGB(255, 100, 39, 131),
+//                 borderRadius: BorderRadius.circular(20),
+//                 // ignore: prefer_const_literals_to_create_immutables
+//                 boxShadow: shadowList,
+//               ),
+//               child: Align(
+//                 alignment: Alignment.topCenter,
+//                 child: Hero(
+//                   tag: 1,
+//                   child: Image.asset(
+//                     'images/Antaragnee.png',
+//                   ),
+//                 ),
+//               ),
+//             ),
+//           ),
+//           Align(
+//             alignment: Alignment.center,
+//             child: Container(
+//               height: 100,
+//               margin: EdgeInsets.symmetric(horizontal: 35),
+//               decoration: BoxDecoration(
+//                 color: Colors.white,
+//                 boxShadow: shadowList,
+//                 borderRadius: BorderRadius.circular(20),
+//               ),
+//               // ignore: prefer_const_constructors
+//               child: Center(
+//                 // ignore: prefer_const_constructors
+//                 child: Text(
+//                   'Antaragnee',
+//                   // ignore: prefer_const_constructors
+//                   style: TextStyle(
+//                     fontSize: 40,
+//                   ),
+//                 ),
+//               ),
+//             ),
+//           ),
+//           Align(
+//             alignment: Alignment.bottomCenter,
+//             child: Container(
+//               // margin: EdgeInsets.symmetric(horizontal: 20),
+//               // padding: EdgeInsets.symmetric(horizontal: 15),
+//               height: 100,
+//               // ignore: sort_child_properties_last
+//               child: Row(
+//                 children: [
+//                   const SizedBox(
+//                     width: 10,
+//                   ),
+//                   Container(
+//                     height: 60,
+//                     width: 185,
+//                     decoration: BoxDecoration(
+//                         color: primaryGreen,
+//                         borderRadius: BorderRadius.circular(20)),
+//                     child: Center(
+//                         child: Text(
+//                       'RULEBOOK',
+//                       style: TextStyle(color: Colors.white, fontSize: 24),
+//                     )),
+//                   ),
+//                   SizedBox(
+//                     width: 10,
+//                   ),
+//                   Expanded(
+//                     child: Container(
+//                       height: 60,
+//                       decoration: BoxDecoration(
+//                           color: primaryGreen,
+//                           borderRadius: BorderRadius.circular(20)),
+//                       child: Center(
+//                           child: Text(
+//                         'REGISTER',
+//                         style: TextStyle(color: Colors.white, fontSize: 24),
+//                       )),
+//                     ),
+//                   ),
+//                   const SizedBox(
+//                     width: 10,
+//                   ),
+//                 ],
+//               ),
+
+//               decoration: BoxDecoration(
+//                 color: Colors.grey[200],
+//               ),
+//             ),
+//           ),
+//         ],
+//       ),
+//     );
+//   }
+// }
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////
+///
+///
+///
+///
+///
+///
+///
+// class eventwindow1 extends StatelessWidget {
+//   const eventwindow1({Key? key}) : super(key: key);
+
+//   @override
+//   Widget build(BuildContext context) {
+//     return Scaffold(
+//       body: Column(
+//         children: [
+//           SingleChildScrollView(
+//             child: Column(
+//               children: [
+//                 Stack(
+//                 children: [
+//                   Column(
+//                     children: [
+//                       Container(
+//                         height: 400,
+//                         color: Colors.amberAccent,
+//                       ),
+//                       Container(
+//                         height: 100,
+//                         color: Colors.white,
+//                         margin: EdgeInsets.symmetric(vertical: 80),
+//                         padding: EdgeInsets.symmetric(horizontal: 20),
+//                         child: Column(
+//                           // ignore: prefer_const_literals_to_create_immutables
+//                           children: [
+//                             Text(
+//                               'Drama has never been just acting, but it\'s the art one has within himself to express his emotions. Mainly consisting of theatre plays and street plays, they become one of the best sources to spread awareness for social issues.',
+//                               style: TextStyle(fontSize: 20),
+//                             ),
+//                             Text(
+//                               '\nREGISTRATION DEADLINE: 21 DEC',
+//                               style: TextStyle(fontSize: 21),
+//                             ),
+//                           ],
+//                         ),
+//                       ),
+//                     ],
+//                   ),
+//                   Container(
+//                     height: 100,
+//                     margin: EdgeInsets.only(top: 40),
+//                     child: Align(
+//                       alignment: Alignment.topCenter,
+//                       child: Row(
+//                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
+//                         children: [
+//                           IconButton(icon: Icon(Icons.arrow_back), onPressed: () {}),
+//                           IconButton(onPressed: () {}, icon: Icon(Icons.share))
+//                         ],
+//                       ),
+//                     ),
+//                   ),
+//                   Align(
+//                     alignment: Alignment.topCenter,
+//                     child: Container(
+//                       margin: EdgeInsets.only(top: 80),
+//                       height: 300,
+//                       width: 350,
+//                       decoration: BoxDecoration(
+//                         color: Color.fromARGB(255, 100, 39, 131),
+//                         borderRadius: BorderRadius.circular(20),
+//                         // ignore: prefer_const_literals_to_create_immutables
+//                         boxShadow: shadowList,
+//                       ),
+//                       child: Align(
+//                         alignment: Alignment.topCenter,
+//                         child: Hero(
+//                           tag: 1,
+//                           child: Image.asset(
+//                             'images/Antaragnee.png',
+//                           ),
+//                         ),
+//                       ),
+//                     ),
+//                   ),
+//                 ],
+//                 ),
+
+//           Container(
+//                 height: 500,
+//                 width: 350,
+//                 decoration: BoxDecoration(
+//                   color: Color.fromARGB(255, 100, 39, 131),
+//                   borderRadius: BorderRadius.circular(20),
+//                   // ignore: prefer_const_literals_to_create_immutables
+//                   boxShadow: shadowList,
+//                 ),
+//                 child: Align(
+//                   child: Text('hiiooooi\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nhiii'),
+//                 ),
+//               ),
+//               ],
+//             ),
+//           ),
+
+//             Align(
+//               alignment: Alignment.center,
+//               child: Container(
+//                 height: 100,
+//                 margin: EdgeInsets.symmetric(horizontal: 35),
+//                 decoration: BoxDecoration(
+//                   color: Colors.white,
+//                   boxShadow: shadowList,
+//                   borderRadius: BorderRadius.circular(20),
+//                 ),
+//                 // ignore: prefer_const_constructors
+//                 child: Center(
+//                   // ignore: prefer_const_constructors
+//                   child: Text(
+//                     'Antaragnee',
+//                     // ignore: prefer_const_constructors
+//                     style: TextStyle(
+//                       fontSize: 40,
+//                     ),
+//                   ),
+//                 ),
+//               ),
+//             ),
+//         ],
+//       )
+//             // Align(
+//             //   alignment: Alignment.bottomCenter,
+//             //   child: Container(
+//             //     // margin: EdgeInsets.symmetric(horizontal: 20),
+//             //     // padding: EdgeInsets.symmetric(horizontal: 15),
+//             //     height: 100,
+//             //     // ignore: sort_child_properties_last
+//             //     child: Row(
+//             //       children: [
+//             //         const SizedBox(
+//             //           width: 10,
+//             //         ),
+//             //         Container(
+//             //           height: 60,
+//             //           width: 185,
+//             //           decoration: BoxDecoration(
+//             //               color: primaryGreen,
+//             //               borderRadius: BorderRadius.circular(20)),
+//             //           child: Center(
+//             //               child: Text(
+//             //             'RULEBOOK',
+//             //             style: TextStyle(color: Colors.white, fontSize: 24),
+//             //           )),
+//             //         ),
+//             //         SizedBox(
+//             //           width: 10,
+//             //         ),
+//             //         Expanded(
+//             //           child: Container(
+//             //             height: 60,
+//             //             decoration: BoxDecoration(
+//             //                 color: primaryGreen,
+//             //                 borderRadius: BorderRadius.circular(20)),
+//             //             child: Center(
+//             //                 child: Text(
+//             //               'REGISTER',
+//             //               style: TextStyle(color: Colors.white, fontSize: 24),
+//             //             )),
+//             //           ),
+//             //         ),
+//             //         const SizedBox(
+//             //           width: 10,
+//             //         ),
+//             //       ],
+//             //     ),
+
+//             //     decoration: BoxDecoration(
+//             //       color: Colors.grey[200],
+//             //     ),
+//             //   ),
+//             // ),
+
+//     );
+//   }
+// }
+
+////////////////////////////////////////////////////////////////////////////////
+///
+///
+//   final List<Image> myImagesAdapted = [
+//   Image(
+//     image: AssetImage('images/image1.jpg'),
+//     fit: BoxFit.cover,
+//   ),
+//   Image(
+//     image: AssetImage('images/image2.jpeg'),
+//     fit: BoxFit.cover,
+//   ),
+//   Image(
+//     image: AssetImage('images/image3.jpeg'),
+//     fit: BoxFit.cover,
+//   ),
+//   Image(
+//     image: AssetImage('images/image4.jpg'),
+//     fit: BoxFit.cover,
+//   ),
+//   Image(
+//     image: AssetImage('images/image5.jpeg'),
+//     fit: BoxFit.cover,
+//   ),
+//   // Image(
+//   //   image: AssetImage('images/image6.jpg'),
+//   //   fit: BoxFit.cover,
+//   // ),
+//   // Image(
+//   //   image: AssetImage('images/image7.jpg'),
+//   //   fit: BoxFit.cover,
+//   // ),
+//   // Image(
+//   //   image: AssetImage('images/image8.jpg'),
+//   //   fit: BoxFit.cover,
+//   // ),
+//   // Image(
+//   //   image: AssetImage('images/image9.jpg'),
+//   //   fit: BoxFit.cover,
+//   // ),
+//   // Image(
+//   //   image: AssetImage('images/image10.jpg'),
+//   //   fit: BoxFit.cover,
+//   // ),
+//   // Image(
+//   //   image: AssetImage('images/image11.jpg'),
+//   //   fit: BoxFit.cover,
+//   // ),
+//   // Image(
+//   //   image: AssetImage('images/image12.jpg'),
+//   //   fit: BoxFit.cover,
+//   // ),
+//   // Image(
+//   //   image: AssetImage('images/image13.jpg'),
+//   //   fit: BoxFit.cover,
+//   // ),
+//   // Image(
+//   //   image: AssetImage('images/image14.jpg'),
+//   //   fit: BoxFit.cover,
+//   // ),
+//   // Image(
+//   //   image: AssetImage('images/image15.jpg'),
+//   //   fit: BoxFit.cover,
+//   // ),
+// ];
+
+//     Widget imagesgridview() => Container(
+//       height: 400,
+//       color: Colors.blueGrey,
+//       child: GridView.count(
+//         crossAxisCount: 2,
+//         children: [...myImagesAdapted],
+//       ),
+
+// );
