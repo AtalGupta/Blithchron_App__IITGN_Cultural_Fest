@@ -28,13 +28,17 @@ For any queries or support, please contact [Support Email].
 ## Screenshots
 <table>
   <tr>
-    <td><img src="path/to/screenshot1.jpg" width="100%"/></td>
-    <td><img src="path/to/screenshot2.jpg" width="100%"/></td>
-    <td><img src="path/to/screenshot3.jpg" width="100%"/></td>
+    <td><img src="bottom_navigation_bar/images/IMG-20240118-WA0003.jpg" width="100%"/></td>
+    <td><img src="bottom_navigation_bar/images/IMG-20240118-WA0001.jpg" width="100%"/></td>
+    <td><img src="bottom_navigation_bar/images/IMG-20240118-WA0002.jpg" width="100%"/></td>
   </tr>
   <tr>
-    <td><img src="path/to/screenshot4.jpg" width="100%"/></td>
-    <td><img src="path/to/screenshot5.jpg" width="100%"/></td>
-    <td><img src="path/to/screenshot6.jpg" width="100%"/></td>
+    <td><img src="bottom_navigation_bar/images/IMG-20240118-WA0006.jpg" width="100%"/></td>
+    <td><img src="bottom_navigation_bar/images/IMG-20240118-WA0004.jpg" width="100%"/></td>
+    <td><img src="bottom_navigation_bar/images/IMG-20240118-WA0005.jpg" width="100%"/></td>
+  </tr>
+  <tr>
+    <td><img src="bottom_navigation_bar/images/IMG-20240118-WA0007.jpg" width="100%"/></td>
+    <td><img src="bottom_navigation_bar/images/IMG-20240118-WA0008.jpg" width="100%"/></td>
   </tr>
 </table>
