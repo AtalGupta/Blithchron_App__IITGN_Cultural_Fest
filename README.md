@@ -23,7 +23,7 @@ Download the app from the Google Play Store. Ensure your device meets the minimu
 Upon launching the app, users can sign in to access personalized features. Navigate through the app using the intuitive interface to explore different sections like the gallery, event details, campus map, and more.
 
 ## Support
-For any queries or support, please contact [Support Email].
+For any queries or support, please contact [guptaatal@iitgn.ac.in].
 
 ## Screenshots
 <table>
